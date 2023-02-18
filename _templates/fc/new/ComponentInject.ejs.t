@@ -1,6 +1,5 @@
 ---
-to: app/components/index.ts
-inject: true
+to: <%= dir %>/index.ts
 append: true
 ---
 export {<%= name %>} from './<%= name %>'
