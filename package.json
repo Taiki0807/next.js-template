@@ -10,7 +10,10 @@
     "test": "jest --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "fc:new": "hygen fc new",
+    "lint:fix": "lint --fix",
+    "format": "prettier --write \"./**/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "@next/font": "13.1.6",
