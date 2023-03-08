@@ -6,14 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "jest --watch",
+    "lint": "next lint -f stylish",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install",
     "fc:new": "hygen fc new",
-    "lint:fix": "lint --fix",
-    "format": "prettier --write \"./**/**/*.{ts,tsx}\""
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write \"./**/**/*.{ts,tsx}\"",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@next/font": "13.1.6",
