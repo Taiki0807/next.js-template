@@ -2,8 +2,8 @@
 to: <%= path %>/<%= name %>.test.tsx
 unless_exists: true
 ---
+import { composeStories } from '@storybook/react';
 import { render, screen } from '@testing-library/react';
-import { composeStories } from '@storybook/testing-react';
 import * as stories from './<%= name %>.stories';
 import '@testing-library/jest-dom';
 
