@@ -32,7 +32,7 @@ jobs:
       - name: npm ci
         run: npm install && npm ci
       - name: Type check
-        uses: andoshin11/typescript-error-reporter-action@v1.0.2
+        uses: andoshin11/typescript-error-reporter-action@v1.0.3
       - name: Test
         uses: mattallty/jest-github-action@v1
         env:
