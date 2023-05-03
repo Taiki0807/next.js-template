@@ -13,7 +13,7 @@
       "automerge": true
     }
   ],
-  "schedule": "every day at 12:00pm",
+  "schedule": "before 13:00pm",
   "timezone": "Asia/Tokyo",
   "prHourlyLimit": 0
 }
