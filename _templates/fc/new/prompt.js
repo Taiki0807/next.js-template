@@ -5,7 +5,7 @@ module.exports = {
         type: 'input',
         name: 'dir',
         message:
-          'どのディレクトリに作成しますか？ ex: app/components/parts',
+          'どのディレクトリに作成しますか？ ex: app/_components/parts',
       },
       {
         type: 'input',
