@@ -15,7 +15,7 @@ type T = typeof <%= name %>;
 type Story = StoryObj<T>;
 
 export const Default: Story = {
-  <% if (have_props) { -%>
+<% if (have_props) { -%>
   args: {},
-  <% } -%>
+<% } -%>
 };
