@@ -1,7 +1,6 @@
 {
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
     "next/core-web-vitals",
     "plugin:import/recommended",
     "plugin:import/warnings",
@@ -29,10 +28,7 @@
       "jsx": true
     }
   },
-  "plugins": [
-    "@typescript-eslint",
-    "react"
-  ],
+  "plugins": ["@typescript-eslint", "react"],
   "settings": {
     "react": {
       "version": "detect"
